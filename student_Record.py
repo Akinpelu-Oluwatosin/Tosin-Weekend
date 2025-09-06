@@ -1,4 +1,4 @@
-studentDetails = {
+student_Details = {
     'name': input("Enter your name: "),
     'age': int(input('How old are you? ')),
     'City': input('Where do you stay? '),
@@ -9,3 +9,9 @@ studentDetails = {
 ]
 }
 
+def display_student_details(student):
+	print(studentDetails):
+
+
+
+display_student_details(student_Details)
